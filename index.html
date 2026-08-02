@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rework quests</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro">
+        <div id="introTitle"></div>
+        <div id="introStatus"></div>
+    </div>
+    <div class="background"id="blackBG"></div>
+
+    <div id="fade"></div>
+    <div id="First_scene_lobby">
+        <div class="background" id="lobbyBG"></div>
+        <button class="invisible_buttons" id="invisible_button_lobby"></button>
+        
+            <div id="LobbyInput" class="LobbyInput">
+                <label for="username_lobby">If you have an appointment 
+                    <br /> enter your name:</label>
+                <input id="username_lobby">
+                
+                <label for="password_lobby">Identify yourself:</label>
+                <input id="password_lobby">
+
+                <button id="EnterButton"><span>Enter</span></button>
+            </div>
+    </div>
+
+        <div id="dialogBox">
+            <div id="dialogName">YOU</div>
+            <div id="dialog"></div>
+            <div id="nextArrow">▼</div>
+        </div>
+
+    <div id="Second_scene_archive">
+
+        <div class="background" id="archiveBG"></div>
+        <div id="archiveDark"></div>
+        <div id="archiveOverlay"></div>
+
+        <button class="invisible_buttons" 
+        id="invisible_button_archive_computer"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_archive_paper"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_archive_lamp"></button>
+        <img id="paper" src="images//archive/paper.png">
+        <img id="main_screen" src="images//archive/main_screen1.png">
+        <img id="screen_papki" src="images//archive/screen_papki1.png">
+        <button class="invisible_buttons" 
+        id="invisible_button_windows_papka"></button>
+        
+
+         <div class="xp_login" id="xp_login">
+                <div class="xp_titlebar">
+                    Log On To Windows
+                    <button class="all_xp_buttons" id="CloseLogin">X</button>
+                </div>
+
+                <div class="xp_content">
+                    <div class="row">
+                        <label>User name:</label>
+                        <input type="text" value="Administrator" readonly>
+                    </div>
+
+                    <div class="row">
+                        <label>Password:</label>
+                        <input type="password" placeholder=" " id="password_archive">
+                    </div>
+
+                    <button class="all_xp_buttons" id="xp_button">OK</button>
+                </div>
+            </div>
+            <p></p>
+
+    </div>
+    <div id="Third_scene_corridor">
+        <div class="background" id="corridor1"></div>
+        <div id="corridor2"></div>
+        <div id="corridor3"></div>
+        <div class="messageCorridors" id="messageCorridor1"><b>Patient №217</b></div>
+        <div class="messageCorridors" id="messageCorridor2"><b>identified.</b></div>
+        <div class="messageCorridors" id="messageCorridor3"><b>Welcome back.</b></div>
+
+
+        <button class="invisible_buttons" 
+        id="invisible_button_corridor_door"></button>
+
+    </div>
+
+    <div id="Fourth_scene_room">
+        <div id="roomContainer">
+            <div class="background" id="false_room"></div>
+            <div id="true_room"></div>
+        </div>
+        <div id="vignetteFlash"></div>
+        <div id="mirror">
+            <img id="patient" src="images//room/patient1.png">
+            <img id="doctor" src="images//room/doctor1.png">
+        </div>
+        <img id="notes" src="images//room/notes.png">
+        <div class="background" id="diagnosFalse"></div>
+        <div class="background" id="diagnosTruth"></div>
+        <div id="archiveOverlay2"></div>
+        <div id="sayItHint">Say it.</div>
+        <button class="invisible_buttons" 
+        id="invisible_button_mirror_room"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_diagnos_room"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_diagnos_back"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_notes"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_bed"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_clock"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_robe"></button>
+    </div>
+    <div id="clockText">11:59</div>
+    <div id="robeText">Why does this smell so familiar?</div>
+    
+    
+    <div  id="final_Scene">
+        <div id="finalText">So who are you?</div>
+        <div id="patientLabel">Patient</div>
+        <div id="doctorLabel">Doctor</div>
+        <button class="invisible_buttons" 
+        id="invisible_button_final_doctor"></button>
+        <button class="invisible_buttons" 
+        id="invisible_button_final_patient"></button>
+        <div class="background" id="finalChooseBG"></div>
+        <div id="patientHighlight"></div>
+        <div id="doctorHighlight"></div>
+        
+        
+    </div>
+    <div id="wakeupPatient"></div>
+    <div id="tvFlash"></div>
+    <div id="titry">
+        <div id="TextTitre">CHAPTER I COMPLETE</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
