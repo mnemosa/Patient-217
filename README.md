@@ -1,6 +1,23 @@
 # Patient #217
 
-An interactive browser-based horror puzzle experience built with JavaScript, HTML and CSS.
+> An interactive browser-based horror puzzle experience built with vanilla JavaScript, HTML and CSS.
+
+## About
+
+Patient #217 is a story-driven interactive horror quest where the player explores different locations, interacts with objects and solves puzzles to uncover the story.
+
+The project was designed and developed from scratch as a personal project without using frameworks or templates.
+
+## Features
+
+- Multiple interactive scenes and locations
+- Puzzle mechanics
+- User input and password interactions
+- Scene transitions
+- Event-driven gameplay
+- Custom UI elements
+- CSS animations
+- Sound effects and audio interactions
 
 ## Screenshots
 
@@ -8,24 +25,7 @@ An interactive browser-based horror puzzle experience built with JavaScript, HTM
 
 ![Archive](./screenshots/archive_screen.png)
 
-## About
-
-Patient #217 is a story-driven interactive horror quest developed as a personal project.
-
-The player explores different scenes, interacts with objects, solves puzzles and uncovers the story through interactive gameplay.
-
-The project was designed and developed from scratch without using templates or frameworks.
-
-## Features
-
-- Interactive puzzles
-- Multiple scenes and locations
-- Scene transitions
-- User input handling
-- Event-driven interactions
-- CSS animations
-- Sound and audio interactions
-- Custom UI elements
+![Login](./screenshots/characteristics_screen.png)
 
 ## Technologies
 
@@ -35,24 +35,25 @@ The project was designed and developed from scratch without using templates or f
 
 ## What I Built
 
-I was responsible for the full development of the project, including:
+I developed the project independently, including:
 
 - JavaScript game logic
-- Interactive elements
-- Event handling
-- Scene navigation
+- Scene navigation and transitions
+- Interactive elements and event handling
 - Puzzle mechanics
-- UI implementation
+- User input handling
+- Custom UI implementation
 - CSS animations
 - Audio integration
-- Debugging
+- Debugging and fixing interaction issues
 
-## Screenshots
+## Project Structure
 
-_Add screenshots of the project here._
-
-## Author
-
-Serhii Naraievskyi
-
-[GitHub Profile](https://github.com/mnemosa)
+```text
+Patient-217/
+├── images/
+├── screenshots/
+├── sounds/
+├── index.html
+├── script.js
+└── style.css
