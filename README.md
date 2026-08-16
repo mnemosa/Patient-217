@@ -2,6 +2,12 @@
 
 An interactive browser-based horror puzzle experience built with JavaScript, HTML and CSS.
 
+## Screenshots
+
+![Lobby](./screenshots/lobby_screen.png)
+
+![Archive](./screenshots/archive_screen.png)
+
 ## About
 
 Patient #217 is a story-driven interactive horror quest developed as a personal project.
